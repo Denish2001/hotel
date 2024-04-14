@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rate us</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="hotel.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Damion&family=Kalam&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Kalam&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+       
+       .body{
+        margin-top: 200px;
+        font-size: 25px;
+        font-family: Gothic;
+       }
+        
+        .c1{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            border-style: solid;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 20px;
+            width: 70%;
+            margin-left: 16%;
+            background-color: rgb(170, 94, 94);
+        }
+        .c2{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            border-style: solid;
+            padding: 10px;
+            border-radius: 20px;
+            width: 70%;
+            margin-left: 16%;
+            background-color: rgb(170, 94, 94);
+        }
+        .reviews img{
+            border-radius: 100px;
+            width: 200px;
+            height: 200px;
+
+        }
+        article{
+            padding-left: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="body">
+    <nav>
+        <img src="logo.jpg" alt="logo">
+        <p>The Steak House</p>
+        <section class="links">
+            <a href="index.html">Home |</a>
+            <a href="order.html">Order |</a>
+            <a href="rate us.html">Rate us |</a>
+            <a href="aboutus.html">About Us</a>
+        </section>
+    </nav>
+    <div class="rating" style="margin-top: 15px;">
+        <h2>Rate Us</h2>
+        <div class="stars" id="star-rating">
+            <span class="star" data-rating="1">&#9733;</span>
+            <span class="star" data-rating="2">&#9733;</span>
+            <span class="star" data-rating="3">&#9733;</span>
+            <span class="star" data-rating="4">&#9733;</span>
+            <span class="star" data-rating="5">&#9733;</span>
+        </div>
+        <p>Rating: <span id="selected-rating">0</span>/5</p>
+    </div>
+
+    <div class="reviews">
+        <section class="c1">
+            <img src="customer.jpg" alt="">
+            <article>Amazing steak, great service and elegant atmosphere. Highly recommended.<br>
+                ~Hellen~
+            </article>
+        </section>
+        <section class="c2">
+            <img src="customer (2).jpg" alt="">
+            <article>Great steak, but the sides could be better. Overall, a good dining experience.<br>
+                ~juliana~
+            </article>
+        </section>
+        <style>
+            textarea{
+                width: 70%;
+                height: 100px;
+
+            }
+            .comments{
+                margin-left: 16%;
+            }
+        </style>
+        <div class="comments">
+            <p><label for="text"> leave us your comments down below</label></p>
+            <textarea placeholder="let us know what you think..." name="text"></textarea><br>
+            <button>Submit</button>
+
+        </div>
+
+    </div>
+    <footer>
+        <section >
+        <p>&reg; The Stakehouse <br>
+            &copy; 2023
+        </p>
+        </section>
+        <section>
+            <p>contact: +254 705 369 048 <br>
+                email ; <a href="awajodenish@gmail.com">awajodenish@gmail.com</a>
+            </p>
+        </section>
+    </footer>
+</div>
+</body>
+</html>
